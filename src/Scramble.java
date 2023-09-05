@@ -1,9 +1,6 @@
 import java.util.List;
 
 public class Scramble {
-    public Scramble(){
-
-    }
 
     private static String swapLetters(String word, int i) {
         char temp = word.charAt(i+1);
